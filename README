@@ -1,0 +1,42 @@
+This directory contains companion code for the paper "XXX".  The code will
+reproduce the figures in the original paper which show the size, composition,
+growth rate, and contribution to U.S. GDP of the bioeconomy from 1980-2012.
+
+The code was written for the GNU Octave programming language with graphics
+produced by gnuplot.  Testing was done with Octave 4.0.1 and gnuplot 5.0.1.
+
+------------------------------------------------------------
+Printing Plots
+------------------------------------------------------------
+
+From the command line, execute
+
+octave GMDP_plots.m
+
+OR
+
+start Octave
+at Octave command line, execute
+
+GMDP_plots<RETURN>
+
+This will produce three Scaled Vector Graphic files:
+
+GMDP.svg
+SectorGrowthRate.svg
+GMDPfracGDP.svg
+
+------------------------------------------------------------
+Onscreen Display
+------------------------------------------------------------
+
+There are differences in the rendering for screen versus printing.
+To display the plots onscreen, and potentially manipulate them further,
+set the configuration variable 'do_print' to false.
+
+Steps:
+
+start Octave
+do_print = false;<RETURN>
+GMDP_PLOTS<RETURN>
+
