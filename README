@@ -1,5 +1,7 @@
-This directory contains companion code for the paper "XXX".  The code will
-reproduce the figures in the original paper which show the size, composition,
+This directory contains companion code for the paper "Estimating the biotech sector's contribution to the US economy", Robert Carlson, 
+Nature Biotechnology 34, 247–255 (2016).
+
+The code will reproduce the figures in the original paper which show the size, composition,
 growth rate, and contribution to U.S. GDP of the bioeconomy from 1980-2012.
 
 The code was written for the GNU Octave programming language with graphics
